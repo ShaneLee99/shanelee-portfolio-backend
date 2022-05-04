@@ -1,9 +1,38 @@
-# Sanity Clean Content Studio
+# CrypticzXI's Portfolio / Backend
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
 
-Now you can do the following things:
+What this project does:
+* Use Sanity.io for a database to hold all of your wonderful artwork!
+* Allows you to show your amazing artwork off.
+* Manage buttons, add new buttons.
+* Have a custom experiance.
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+and much more!
+
+## Getting Started
+
+# This repo should be setup first! Please do this [(CrypticzXI-Portfolio-Frontend)](https://github.com/CrypticzXI/crypticzxi-portfolio-frontend) after.
+
+1. install the packages:
+```bash
+npm i
+```
+
+2. create your project on [Sanity](https://sanity.io).
+
+3. copy your ProjectID. Your going to need this.
+
+4. Setup Sanity with my schems, open sanity.json:
+```
+Replace "project" => "name" with your project name.
+Replace "api" => "projectId" with the project id you copied earlier.
+```
+
+5. Start the sanity dashboard:
+```bash
+sanity start
+```
+
+6. Your done with this repo, Visit [localhost:3333](http://localhost:3333)
+
+7. Setup the Next.js Frontend. => [(CrypticzXI-Portfolio-Frontend)](https://github.com/CrypticzXI/crypticzxi-portfolio-frontend)
