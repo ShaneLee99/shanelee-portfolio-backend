@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "salmon-dotterel"
+    "name": "shanelee-portfolio"
   },
   "api": {
-    "projectId": "4i4gqgxn",
+    "projectId": "sqnff2rx",
     "dataset": "production"
   },
   "plugins": [
