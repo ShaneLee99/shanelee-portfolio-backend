@@ -38,6 +38,11 @@ export default {
         type: 'string',
         title: 'Portfolio Title'
       },
+      {
+        name: 'blogtitle',
+        type: 'string',
+        title: 'Blog Title'
+      },
 
     ]
   }
