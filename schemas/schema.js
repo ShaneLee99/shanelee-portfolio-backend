@@ -15,6 +15,7 @@ import resume from "./resume";
 import links from "./links";
 import blog from "./blog";
 import portfolioRef from "./portfolioRef";
+import links_page from "./links_page";
 
 export default createSchema({
   name: "default",
@@ -33,6 +34,7 @@ export default createSchema({
     resume,
     links,
     blog,
-    portfolioRef
+    portfolioRef,
+    links_page
   ]),
 });
