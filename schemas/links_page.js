@@ -10,7 +10,7 @@ export default {
       },
       {
         name: 'image',
-        title: 'Account banner image (USE SVG)',
+        title: 'Links Page Image (USE SVG)',
         type: 'image',
       },
       {
