@@ -13,6 +13,9 @@ import software from "./software";
 import richText from "./richText";
 import resume from "./resume";
 import links from "./links";
+import blog from "./blog";
+import portfolioRef from "./portfolioRef";
+import links_page from "./links_page";
 
 export default createSchema({
   name: "default",
@@ -29,6 +32,9 @@ export default createSchema({
     software,
     richText,
     resume,
-    links
+    links,
+    blog,
+    portfolioRef,
+    links_page
   ]),
 });
