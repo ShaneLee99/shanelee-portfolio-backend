@@ -9,6 +9,11 @@ export default {
         type: 'string',
       },
       {
+        name: 'id',
+        title: 'Link ID',
+        type: 'number',
+      },
+      {
         name: 'image',
         title: 'Links Page Image (USE SVG)',
         type: 'image',
