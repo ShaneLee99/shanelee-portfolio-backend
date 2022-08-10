@@ -6,5 +6,5 @@ export default () =>
     .title('Content')
     .items([
         ...S.documentTypeListItems(),
-        orderableDocumentListDeskItem({type: 'Links'})
+        orderableDocumentListDeskItem({type: 'linkspage', title: "Links"})
     ])
