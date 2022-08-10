@@ -1,17 +1,19 @@
+import {
+  orderRankField,
+  orderRankOrdering,
+} from '@sanity/orderable-document-list';
+
+
 export default {
     name: 'linkspage',
     title: 'Links',
     type: 'document',
+    orderings: [orderRankOrdering],
     fields: [
       {
         name: 'buttontitle',
         title: 'Button Name',
         type: 'string',
-      },
-      {
-        name: 'id',
-        title: 'Link ID',
-        type: 'number',
       },
       {
         name: 'image',
@@ -22,7 +24,8 @@ export default {
         name: 'href',
         title: 'Where does the button goto?',
         type: 'url',
-      }
+      },
+      orderRankField({ type: 'linkspage'}),
 
       
     ],
